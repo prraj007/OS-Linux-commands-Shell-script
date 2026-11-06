@@ -1,4 +1,4 @@
-<img width="1016" height="295" alt="image" src="https://github.com/user-attachments/assets/84fd720c-e307-4ff3-b1b0-0f44ef19aa23" /><img width="867" height="95" alt="image" src="https://github.com/user-attachments/assets/76e4198e-68d4-4815-9a52-6d9b22dd33a5" /><img width="690" height="108" alt="image" src="https://github.com/user-attachments/assets/aefbdc58-1e0a-43bf-af68-e1fc09041413" /># OS-Linux-commands-Shell-scripting
+# OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -916,6 +916,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+<img width="733" height="220" alt="image" src="https://github.com/user-attachments/assets/eeb578b2-b41d-47f8-8ab8-2264ac0390e1" />
 
 
 cat forctype.sh 
@@ -930,6 +931,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+<img width="790" height="202" alt="image" src="https://github.com/user-attachments/assets/c338d9e3-0658-4162-9e47-d62501029226" />
 
 cat forctype1.sh 
 ```bash
@@ -943,6 +945,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+<img width="708" height="173" alt="image" src="https://github.com/user-attachments/assets/2d0c7bea-58e0-4add-b9d1-224541930bb5" />
 
 cat fornested1.sh 
 ```bash
@@ -961,6 +964,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+<img width="907" height="337" alt="image" src="https://github.com/user-attachments/assets/380db2cb-86c4-434b-85a9-929d62565cef" />
 
  
 cat forbreak.sh 
@@ -977,12 +981,14 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
+
 
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
- 
+## OUTPUT
+<img width="615" height="135" alt="image" src="https://github.com/user-attachments/assets/56698fe4-e08b-4bc7-aa33-9c5bcaca16c0" />
+
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -1017,6 +1023,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+<img width="573" height="233" alt="image" src="https://github.com/user-attachments/assets/1ad66095-ee37-4a59-a43b-fe1df6784745" />
 
 
  cat exread1.sh
@@ -1050,6 +1057,8 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
+<img width="636" height="127" alt="image" src="https://github.com/user-attachments/assets/ed5e5ee3-8c05-40dc-a87f-ec1979a014fe" />
+
  ./funcex.sh 
 
  
@@ -1065,9 +1074,11 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
-
-## OUTPUT
 $ ./argshift.sh 1 2 3
+## OUTPUT
+<img width="683" height="142" alt="image" src="https://github.com/user-attachments/assets/8fd0a651-8cc1-48fc-9909-3f39f375cd6f" />
+
+
  
  cat argshift1.sh
 ```bash
@@ -1129,7 +1140,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+<img width="826" height="360" alt="image" src="https://github.com/user-attachments/assets/435ff336-bac9-4690-861a-ae43e4e162c7" />
+
 cat > palindrome.sh
 ```bash
 #num=545
