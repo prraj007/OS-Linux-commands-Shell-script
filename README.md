@@ -466,6 +466,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="822" height="267" alt="image" src="https://github.com/user-attachments/assets/1f715321-8876-4400-9832-6a1cf51254af" />
 
 
 cat < scriptest.sh 
@@ -504,23 +505,29 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="813" height="658" alt="image" src="https://github.com/user-attachments/assets/2c2a49e1-c0b6-4517-a62b-fda145e1f343" />
 
  
 ls file1
 ## OUTPUT
+<img width="457" height="51" alt="image" src="https://github.com/user-attachments/assets/f34d905a-86d8-415a-9c64-2f3c74e00582" />
 
 echo $?
 ## OUTPUT 
+<img width="452" height="82" alt="image" src="https://github.com/user-attachments/assets/9d8c6296-f47e-4153-b3ed-dacff6faa4c0" />
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ <img width="527" height="90" alt="image" src="https://github.com/user-attachments/assets/f84e8fe4-bf0b-4bd3-b021-5ec1a1bcb9f3" />
+
 abcd
  
 echo $?
  ## OUTPUT
+<img width="457" height="95" alt="image" src="https://github.com/user-attachments/assets/b2c28da6-79a3-4d15-a816-65d2edec23a3" />
 
 
  
@@ -553,6 +560,7 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
+<img width="568" height="268" alt="image" src="https://github.com/user-attachments/assets/9f5e094d-a61a-4462-916d-3e89122d7a4e" />
 
 
 
@@ -587,6 +595,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+<img width="735" height="220" alt="image" src="https://github.com/user-attachments/assets/ed15de3b-3907-4b55-a50e-3b643304844e" />
 
 # check if with file location
 cat>ifnested.sh 
@@ -633,6 +642,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+<img width="580" height="135" alt="image" src="https://github.com/user-attachments/assets/073d662b-97bd-4ae5-b6cd-c54aa0b24dee" />
 
 
 
@@ -677,6 +687,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+<img width="566" height="130" alt="image" src="https://github.com/user-attachments/assets/5f9ebb3f-7f10-423c-89e6-e180b5cebf20" />
 
 # check if a file
 cat > ifnested.sh 
@@ -726,6 +737,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+<img width="762" height="172" alt="image" src="https://github.com/user-attachments/assets/a6ba3ee0-6912-4329-b72b-a9586fc07c95" />
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -754,6 +766,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+<img width="760" height="158" alt="image" src="https://github.com/user-attachments/assets/a9b6936e-19bb-4cca-980a-2b9429be0978" />
 
 
 # testing compound comparisons
@@ -770,6 +783,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="556" height="85" alt="image" src="https://github.com/user-attachments/assets/8528352a-9246-48e6-9499-cbf729da77f5" />
 
 # using the case command
 cat >casecheck.sh 
@@ -1142,6 +1156,7 @@ else
 fi
 ```
 ## OUTPUT 
+<img width="657" height="137" alt="image" src="https://github.com/user-attachments/assets/7e6f73e5-5b56-491f-88c4-2ad649c301f7" />
 
 
 # RESULT:
